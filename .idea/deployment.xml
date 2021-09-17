@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="tongkangheng@222.20.76.249:46622" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="tongkangheng@222.20.76.249:46622">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/tongkangheng/DBA-PM" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="zeliang">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/zeliang/DBA-PM" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="zeliang@49.232.136.159:6050">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>

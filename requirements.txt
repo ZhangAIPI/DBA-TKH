@@ -1,0 +1,10 @@
+torch
+eagerpy
+scipy
+tqdm
+scikit-learn
+gitpython
+requests
+torchvision
+foolbox
+torch_dct
