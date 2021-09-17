@@ -30,6 +30,8 @@ def get_args():
     parser.add_argument("--output_folder", "-o", default="results_test/", help="Output folder")
     parser.add_argument("--n_images", "-n", type=int, default=dba_attack_utilsV6.get_num()
                         , help="N images attacks")
+    parser.add_argument("--model_name", "-n", type=int, default="resnet18"
+                        , help="model to used")
     parser.add_argument(
         "--config_path",
         default="config_example.json",
@@ -45,7 +47,7 @@ if __name__ == "__main__":
 
     ###############################
     print("Load Model")
-    fmodel = get_model(device)
+    fmodel = get_model(args.model_name, device)
 
     ###############################
     print("Load Config")
